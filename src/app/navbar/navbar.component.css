@@ -1,5 +1,30 @@
 @import url("https://fonts.googleapis.com/css?family=Philosopher");
 
+#header {
+    width: 100%;
+}
+#bottom {
+    background-image: url("https://img0.etsystatic.com/193/1/6963715/il_340x270.1416680744_2ifj.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-backdrop-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+    height: 150px;
+}
+#top {
+    position: absolute;
+    top: 3.5%;
+    left: auto;
+    width: 100%;
+}
+img {
+    display: block;
+    margin: auto;
+
+}
 .navbar {
     background-color: Black;
     height: 70px;
@@ -24,7 +49,7 @@
 }
 
 .navbar>ul>li>a {
-    color: white;
+    color: White;
     padding: 0 20px;
     display: block;
     line-height: 70px !important;
