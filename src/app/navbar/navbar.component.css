@@ -132,3 +132,13 @@ img {
     -webkit-transition: all .3s linear;
     color: White;
 }
+
+#search-box {
+    float: right;
+    width: 15%;
+    height: 30px;
+    margin: auto 2%;
+    border-radius: 20px;
+    padding-left: 10px;
+    display: block;
+}
